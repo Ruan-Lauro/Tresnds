@@ -6,7 +6,7 @@
 }
   
 body{
-    background-color: #F3F3F3;
+    background-color: blue;
     display: flex;
     width: 100%;
     height: 100%;
@@ -64,7 +64,7 @@ section img{
     width: 200px;
     height: auto;
     left: 550px;
-    top: 70.5px;
+    top: 70px;
 }
 
 .header-img4 img{
@@ -80,29 +80,32 @@ section img{
 }
 
 .header-img6{
-    position: absolute;
-    top: 35px;
-    text-align: right;
-    left: 1040px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 22px;
-   font-weight: 100;
-   letter-spacing: 1px;
-   height: auto;
-}
-
-.header-img6-p2{
-    font-size: 14px;
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    left: 1118px;
+    margin-right: 20px;
 }
 
 .header-img7{
-    position: absolute;
     width: 30px;
-    height: auto;
-    left: 1240px;
-    top: 5px;
+    margin-left:85%;
+    margin-top: 5px;
+}
+
+.header-img8{
+    text-align: right;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+.header-img8-p2{
+    font-size: 14px;
+    margin-top: 15px;
 }
 
 .home main{
@@ -225,6 +228,93 @@ footer{
 
 .foo-tex a{
     color: black;
+}
+
+@media (max-width: 1069px){
+    header{
+        height: 170px;
+    }
+    .header-img1{
+        width: 200px;
+    }
+    
+    .header-img2{
+        width: 270px;
+    }
+    
+    .header-img3{
+        font-size: 25px;
+        left: 370px;
+        top: 120px;
+    }
+    
+    .header-img4{
+        position: absolute;
+        width: 170px;
+        height: auto;
+        left: 520px;
+        top: 66px;
+    }
+    
+    .header-img5{
+        position: absolute;
+        width: 210px;
+        height: auto;
+        left: 485px;
+        bottom: -20px;
+    }
+    
+    .header-img6{
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        left: 1118px;
+        margin-right: 20px;
+    }
+    
+    .header-img7{
+        width: 25px;
+    }
+    
+    .header-img8{
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        margin-right: 20px;
+    }
+    
+    .header-img8-p2{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .main-class{
+        width: 70%;
+    }
+}
+
+@media (max-width: 995px){
+    .header-img2{
+        width: 240px;
+    }
+    .header-img3{
+        left: 340px;
+    }
+    .header-img4{
+        position: absolute;
+        width: 170px;
+        height: auto;
+        left: 450px;
+        top: 66px;
+    }
+
+    .header-img5{
+        position: absolute;
+        width: 210px;
+        height: auto;
+        left: 390px;
+        bottom: -20px;
+    }
 }
 
 
