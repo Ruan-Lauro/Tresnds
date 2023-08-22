@@ -123,11 +123,13 @@ section img{
 }
 
 .main-big-img{
-    height: auto;
+    
 }
 
 .main-big-img img{
     z-index: 10;
+    height: 400px;
+    object-fit: fill;
 }
 
 .main-big-tex{
